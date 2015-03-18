@@ -14,6 +14,8 @@ like at the moment.
 2. In REPOX we write XSL stylesheets to transform the data to ESDN and
    DPLA MAP compliant MODS.
 3. DPLA harvests compliant MODS from us via OAI-PMH via REPOX.
-4. Profit! I mean, our providers appear in DPLA. Since we are still
-waiting on our first ingest to be complete, we have not yet had to
-deal with a number of issues like incremental harvesting and the like.
+4. Profit! I mean, our providers appear in DPLA.
+
+Since we are still waiting on our first ingest to be complete, we have
+not yet had to deal with a number of issues like incremental
+harvesting and the like.
