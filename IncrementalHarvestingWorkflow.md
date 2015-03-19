@@ -2,7 +2,7 @@
 
 ESDN relies on [REPOX](https://github.com/europeana/REPOX) for all aggregation and ingest processes for the collection and contribution of statewide cultural heritage metadata to DPLA. 
 
-Each month, ESDN ingests data from [partner institutions](https://docs.google.com/spreadsheets/d/1fI3P8CwjNCQAS3-er9bQE6wl4W6LXOl9GTHnSIIIWn0/edit?usp=sharing), transforms that data using XSLT to a set of select [MODS](https://docs.google.com/spreadsheet/ccc?key=0AjuVASmQStk8dDBJS1VfUUpqZV8tb21HcFpMelFzdWc&usp=sharing) elements that have been aligned with the [DPLA MAP](http://dp.la/info/developers/map/), and then outputs that data to DPLA in a single [[OAI feed](http://repox.metro.org:8080/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods).
+Each month, ESDN ingests data from [partner institutions](https://docs.google.com/spreadsheets/d/1fI3P8CwjNCQAS3-er9bQE6wl4W6LXOl9GTHnSIIIWn0/edit?usp=sharing), transforms that data using XSLT to a set of select [MODS](https://docs.google.com/spreadsheet/ccc?key=0AjuVASmQStk8dDBJS1VfUUpqZV8tb21HcFpMelFzdWc&usp=sharing) elements that have been aligned with the [DPLA MAP](http://dp.la/info/developers/map/), and then outputs that data to DPLA in a single [OAI feed](http://repox.metro.org:8080/repox/OAIHandler?verb=ListRecords&metadataPrefix=mods).
 
 *Schedule*
 
