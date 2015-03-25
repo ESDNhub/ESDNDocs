@@ -1,4 +1,4 @@
-Much of our process at Empire State Digital Network is driven by our
+Much of our process at Empire State Digital Network ([ESDN] (http://www.mnylc.org/esdn/)) is driven by our
 being a new hub that is just starting with DPLA. As a result, we are
 not repurposing data at this time. We act as a simple conduit between
 our providers and DPLA. We have plans for further presentation or
@@ -7,7 +7,7 @@ like at the moment.
 
 1. We harvest metadata from our partners via OAI-PMH into REPOX. So
    far, the majority of our partners have been CONTENTdm sites
-   providing oai_dc. We do have at least one provider (METRO, our host
+   providing oai_dc. We do have at least one provider ([METRO] (http://metro.org/), our host
    organization) that is providing MODS via Islandora. As we grow and
    add providers we expect to deal with a wider variety of formats and
    CMSes.
