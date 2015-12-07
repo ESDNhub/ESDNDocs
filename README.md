@@ -8,4 +8,4 @@ ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Me
 Mappings for ESDN from Heidrun, DPLA's metadata ingestion and QA system, are available [here] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb).
 
 ### Sets for Harvesting
-ESDN provides DPLA with a list of OAI sets to harvest from our REPOX instance on a bi-monthly basis. The current list of sets is ready for harvesting by DPLA is available in the *sets-for-DPLA-harvesting* folder.
+ESDN provides DPLA with a list of sets, organized by OAI <setSpec>, to harvest from our REPOX instance on a bimonthly basis. The current list of sets ready for harvesting is available in the *sets-for-DPLA-harvesting* folder.
