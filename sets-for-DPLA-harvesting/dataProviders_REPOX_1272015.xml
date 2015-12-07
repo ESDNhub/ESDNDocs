@@ -1,0 +1,2287 @@
+
+<data-providers> 
+  <provider id="AmericanJewishJointDistributir0"> 
+    <name>American Jewish Joint Distribution Committee</name>  
+    <country>us</country>  
+    <source id="jdc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:05:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>American Jewish Joint Distribution Committee Archives</description>  
+      <exportDirPath>/opt/repoxdata/jdc/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://waystation.metro.org/oai-pmh-repository/request</oai-source>  
+      <oai-set>5</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>jdc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="BurchfieldPenneyArtCenterr0"> 
+    <name>Burchfield Penney Art Center at SUNY Buffalo State</name>  
+    <country>us</country> 
+  </provider>  
+  <provider id="CenterforJewishHistoryr0"> 
+    <name>Center for Jewish History, Leo Baeck Institute</name>  
+    <country>us</country> 
+  </provider>  
+  <provider id="ColumbiaUniversityr0"> 
+    <name>Columbia University</name>  
+    <country>us</country> 
+  </provider>  
+  <provider id="CulinaryInstituteofAmericar0"> 
+    <name>Culinary Institute of America</name>  
+    <country>us</country>  
+    <source id="cia_menu" metadataFormat="oai_qdc" schema="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:06:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Culinary Institute of America Menus</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\cia_menu\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16940.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>culinary_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="FordhamUniversityr0"> 
+    <name>Fordham University</name>  
+    <country>us</country>  
+    <source id="italianPamp" metadataFormat="oai_qdc" schema="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:09:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fordham University-Italian Pamphlets Collection</description>  
+      <exportDirPath>/opt/repoxdata/italianPamp/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://libdigcoll2.library.fordham.edu/oai/oai.php</oai-source>  
+      <oai-set>italianPamp</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fordham_italpamp_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="digi_hudson" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:09:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fordham University-Digital Hudson Collecton</description>  
+      <exportDirPath>/opt/repoxdata/digi_hudson/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://libdigcoll2.library.fordham.edu/oai/oai.php</oai-source>  
+      <oai-set>digi_hudson</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="HarrisonPublicLibraryr0"> 
+    <name>Harrison Public Library</name>  
+    <country>us</country>  
+    <source id="HarrisonDigital" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:10:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Harrison Public Library-Harrison Remembers Digital Collection</description>  
+      <exportDirPath>/opt/repoxdata/HarrisonDigital/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://harrisonpl.org/harrison-remembers/oai-pmh-repository/request</oai-source>  
+      <metadataTransformations> 
+        <metadataTransformation>hpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="HudsonValleyRiverHeritageCr0"> 
+    <name>Hudson River Valley Heritage</name>  
+    <country>us</country>  
+    <description>SENYLRC</description>  
+    <source id="newburgh" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:10:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Newburgh Free Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\newburgh\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>newburgh</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>newburgh_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="hrvi" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:04:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hudson River Valley Institute</description>  
+      <exportDirPath>/opt/repoxdata/hrvi/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>hrvi</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>hrvi_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="wp" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-02 19:21:31" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Woodstock Public Library District</description>  
+      <exportDirPath>/opt/repoxdata/wp/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>wp</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="cornpl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:03:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Cornwall Public Library</description>  
+      <exportDirPath>/opt/repoxdata/cornpl/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>cornpl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>cornpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="fdr" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:03:57" isSample="true" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Franklin D. Roosevelt Presidential Library and Museum</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\fdr\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>fdr</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fdr_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="pipc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:10:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Palisades Interstate Park Commission</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\pipc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>pipc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>pipc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="wilderstein" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:08:42" isSample="true" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Wilderstein Historic Site</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\wilderstein\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>wilderstein</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>wilderstein_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="nyacklib" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:07:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Nyack Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\nyacklib\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>nyacklib</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyacklib_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="marlboro" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:07:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Marlboro Free Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\marlboro\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>marlboro</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>marlboro_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="scpl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:07:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Scarsdale Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\scpl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>scpl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>scpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vbmc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:08:27" isSample="true" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar Brothers Medical Center</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vbmc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>vbmc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vbmc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="sunynp" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:08:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY New Paltz</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\sunynp\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>sunynp</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sunynp_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="larc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-02 16:05:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Library Association of Rockland County</description>  
+      <exportDirPath>/opt/repoxdata/larc/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>larc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>larc_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="hhs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:04:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Historic Huguenot Street</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\hhs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>hhs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>hhs_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="chs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:03:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Chester Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\chs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>chs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>chs_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="eplm" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:03:57" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Ellenville Public Library &amp;amp; Museum</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\eplm\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>eplm</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>eplm_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="bard" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:03:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bard College. Bard College Archives</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\bard\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://www.hrvh.org/oai/oai.php</oai-source>  
+      <oai-set>bard</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>bard_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="METRODigitalCultureIslandorar0"> 
+    <name>METRO Digital Culture</name>  
+    <country>us</country>  
+    <description>METRO</description>  
+    <source id="nyaquarium_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:51:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>WCS Library-New York Aquarium Postcards</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\nyaquarium_collection\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>nyaquarium_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyaquarium_collection_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="bronxpark_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:43:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>WCS and NYBG Libraries-Bronx Park Postcards</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\bronxpark_collection\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>bronxpark_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>bronxpark_collection_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="photosnycbeyond_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:01:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New-York Historical Society-Photographs of New York City and Beyond</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\photosnycbeyond_collection\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>photosnycbeyond_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>photosnycbeyond_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="wcs_ephemera" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:03:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Wildlife Conservation Society Archives-WCS Publications and Printed Ephemera Collection</description>  
+      <exportDirPath>/opt/repoxdata/wcs_ephemera_collection/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>wcs_ephemera</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>wcs_ephemera_MODStomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="whitneystudioclub_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:08:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Whitney Museum Library-Whitney Studio Club and Galleries, 1907-1930</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\whitneystudioclub_collection\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>whitneystudioclub_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>whitneystudioclub_collection_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="zoomaps_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:10:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>WCS Library-Bronx Zoo Maps</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\zoomaps_collection\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>zoomaps_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>zoomaps_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="wppl_wpc" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:10:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>White Plains Public Library-White Plains Collection</description>  
+      <exportDirPath>/opt/repoxdata/wppl_wpc/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>wppl_wpc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>wppl_modstomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="bklynsheetmusic_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:42:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Brooklyn Public Library-Brooklyn Sheet Music Covers Collection</description>  
+      <exportDirPath>/opt/repoxdata/bklynsheetmusic_collection/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>bklynsheetmusic_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>bklyn_sheetmusic_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="nyam_cartesdevisites" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:44:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York Academy of Medicine-Cartes de Visite</description>  
+      <exportDirPath>/opt/repoxdata/nyam_cartesdevisites/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>nyam_cartesdevisites</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyam_cartedevisites_MODStomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="fulton_collection" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:44:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Brooklyn Public Library-Fulton Street Trade Cards</description>  
+      <exportDirPath>/opt/repoxdata/fulton_collection/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>fulton_collection</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fulton_collection_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="nyhs_bracklow" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 16:54:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New-York Historical Society-Robert L. Bracklow Photograph Collection</description>  
+      <exportDirPath>/opt/repoxdata/nyhs_bracklow/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://dcmny.org/oai2</oai-source>  
+      <oai-set>nyhs_bracklow</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyhs_bracklow_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="MuseumofModernArtMOMAr0"> 
+    <name>Museum of Modern Art (MOMA)</name>  
+    <country>us</country> 
+  </provider>  
+  <provider id="NewYorkHeritageCdmr0"> 
+    <name>New York Heritage</name>  
+    <country>us</country>  
+    <description>CDLC, CLRC, LILRC, NNYLN, RRLC, SCRLC, WNYLRC</description>  
+    <source id="srr_sph" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:52:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Syracuse Polish Home</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_sph\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_sph</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_sph_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p277601coll11" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:43:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hobart and William Smith Colleges</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p277601coll11\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p277601coll11</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>hobart_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_ham" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:50:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hamilton Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_ham\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_ham</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_ham_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_rshs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:52:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Remsen Steuben Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_rshs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_rshs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_rshs_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="strose" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:53:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>The College of Saint Rose</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\strose\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>strose</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>strose_oaiDctoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="cdlc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:38:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Capital District Library Council</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\cdlc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>cdlc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>cdlc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="hvcc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:41:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hudson Valley Community College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\hvcc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>hvcc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>hvcc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_ocpl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:50:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Onondaga County Public Library-Local History &amp;amp; Genealogy Department</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_ocpl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_ocpl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_ocpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p4020coll5" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:45:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Ithaca College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p4020coll5\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p4020coll5</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>ithaca_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VHB001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:56:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Buffalo and Erie County Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VHB001\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VHB001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>bufferiepl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="dewitt01" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:40:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>DeWitt Community Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\dewitt01\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>dewitt01</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>dewitt01_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="supl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:54:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY Plattsburgh</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\supl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>supl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>supl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="maria" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:43:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Maria College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\maria\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>maria</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>maria_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="siena" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:48:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Siena College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\siena\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>siena</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>siena_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="nor" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:44:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Northville Public Library</description>  
+      <exportDirPath>/opt/repoxdata/nor/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>nor</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nor_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="salfree" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:47:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Salina Free Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\salfree\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>salfree</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>salfree_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15109coll11" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:52:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Rochester Museum &amp;amp; Science Center</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15109coll11\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15109coll11</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>rochmus_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll75" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:26:05" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Longwood Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll75/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll75</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll76" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:47:37" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Northport-East Northport Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll76/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll76</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="sspl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:53:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Saratoga Springs Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\sspl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>sspl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sspl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll78" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:34:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Montauk Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll78/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll78</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="VRT" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:56:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Appellate Division, Fourth Department Law Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VRT\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VRT</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vrt_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="tsc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:56:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>The Sage Colleges</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\tsc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>tsc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>tsc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll43" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:29:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Mendon Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll43\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll43</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>mendon_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="NYNCH" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:45:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Niagara County Historical Society</description>  
+      <exportDirPath>/opt/repoxdata/NYNCH/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>NYNCH</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nynch_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll104" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-19 17:14:17" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Jericho Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll104/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll104</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="BUF005" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:37:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Sardinia Historical Society</description>  
+      <exportDirPath>/opt/repoxdata/BUF005/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>BUF005</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sardinia_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="BSM001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:37:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Buffalo Museum of Science</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\BSM001\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>BSM001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>buffsci_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="BUF009" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:39:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Jewish Buffalo Archives Project</description>  
+      <exportDirPath>/opt/repoxdata/BUF009/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>BUF009</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>jewish_buffalo_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll65" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:19:35" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Gold Coast Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll65/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll65</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="JSY" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:43:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Geneva Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\JSY\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>JSY</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>jsy_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll66" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:23:05" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Huntington Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll66/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll66</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="fmcc" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:41:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fulton-Montgomery Community College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\fmcc\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>fmcc</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fmcc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="sllboces" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:47:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>St. Lawrence-Lewis School Library System Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\sllboces\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>sllboces</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sllboces_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="cazcoll01" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:38:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Cazenovia College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\cazcoll01\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>cazcoll01</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>cazenovia_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VVN001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:57:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Niagara University</description>  
+      <exportDirPath>/opt/repoxdata/VVN001/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VVN001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>niagarau_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="fayfre01" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:40:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fayetteville Free Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\fayfre01\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>fayfre01</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fayfre01_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="R6A001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:45:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Buffalo Niagara Heritage Village</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\R6A001\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>R6A001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>buffniag_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VTP003" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:56:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>The Buffalo History Museum-Buffalo Address Book and Family Directory</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VTP003\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VTP003</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vtp003_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VTP005" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 17:02:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>The Buffalo History Museum</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VTP005\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VTP005</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>buffhist_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="dudleyo" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:40:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Dudley Observatory</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\dudleyo\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>dudleyo</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>dudleyo_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="mbl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:44:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Middleburgh Library</description>  
+      <exportDirPath>/opt/repoxdata/mbl/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>mbl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>mbl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p261501coll7" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:42:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Alfred University</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p261501coll7\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p261501coll7</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>alfred_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll12_1" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-13 21:51:38" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Freeport Memorial Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll12_1/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll12</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="schmuse" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:46:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Steinmetz Digital Collection of Schenectady</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\schmuse\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>schmuse</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>schmuse_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="sunyup01" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:53:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY Upstate Medical University</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\sunyup01\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>sunyup01</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sunyup01_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VXU" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:57:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Olean Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VXU\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VXU</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>olean_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_enhs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:50:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Erieville-Nelson Heritage Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_enhs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_enhs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_enhs_OAIDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="NYMHG" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:45:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>McGraw Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\NYMHG\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>NYMHG</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>mcgrawhs_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll60" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:38:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Port Jefferson Free Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll60/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll60</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="cphpl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:39:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Clifton Park-Halfmoon Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\cphpl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>cphpl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>cphpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll115" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:44:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>West Hempstead Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll115/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll115</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll19_1" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-18 18:26:53" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hofstra University</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll19_1/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll19</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll25" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:23:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY College of Environmental Science and Forestry</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll25\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll25</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>suny_esf_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll23" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:23:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Corning Community College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll23\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll23</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>corning_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="YJL" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:59:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Erie Community College</description>  
+      <exportDirPath>/opt/repoxdata/YJL/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>YJL</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>yjl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="YJJ" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:59:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>D'Youville College</description>  
+      <exportDirPath>/opt/repoxdata/YJJ/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>YJJ</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>yjj_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p261501co1l12" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:42:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Elmira College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p261501co1l12\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p261501co1l12</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>elmira_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll26" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:29:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Albany Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll26\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll26</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>albany_oai_dc to MODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll59" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:37:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Plainview Old-Bethpage Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll59/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll59</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll56" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:21:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Half Hollow Hills Community Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll56/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll56</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll20" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:23:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>miSci</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll20\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll20</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>misci_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="YJA" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:58:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Genesee Community College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\YJA\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>YJA</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>geneseecc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll122" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:39:35" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Port Washington Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll122/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll122</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll1" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:22:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>University at Buffalo</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll1</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>ubuffalo_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll6" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:42:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Onondaga Community College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll6\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll6</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>onondaga_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll123" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-19 16:43:00" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bellmore Memorial Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll123/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll123</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15085coll2" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:46:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Wells College</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15085coll2\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15085coll2</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>wells_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="NYCCH" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:45:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Chautaqua County Historical Society</description>  
+      <exportDirPath>/opt/repoxdata/NYCCH/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>NYCCH</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nycch_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="XFM001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:58:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY Fredonia</description>  
+      <exportDirPath>/opt/repoxdata/XFM001/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>XFM001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>suny_fredonia_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll1" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-18 20:52:28" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bethpage Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll1/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll1</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll2" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-13 21:01:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>East Hampton Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll2/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll2</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p277601coll8" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:45:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Highland Hospital</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p277601coll8\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p277601coll8</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>highland_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p277601coll5" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:42:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Memorial Art Gallery of the University of Rochester</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p277601coll5\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p277601coll5</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>memarturoch_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="nyrud" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-04 21:13:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Rudolf Steiner Library of the Anthroposophical Society in America</description>  
+      <exportDirPath>/opt/repoxdata/nyrud/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>nyrud</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p277601coll6" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:45:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>University of Rochester Medical Center, Eastman Institute for Oral Health</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p277601coll6\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p277601coll6</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>oral_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll35" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:29:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>American Pomeroy Historic Genealogical Association</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll35\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll35</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>ampomgen_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll38" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:41:56" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Dunham Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll38\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll38</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>dunham_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p277601coll3" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:45:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>SUNY Geneseo</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p277601coll3\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p277601coll3</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>sunygen_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll8" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-18 19:43:25" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bryant Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll8/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll8</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="srr_mundy" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:50:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Mundy Branch Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_mundy\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_mundy</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_mundy_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll9" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:42:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Adirondack Architectural Heritage Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll9\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll9</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>adirarch_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15085coll6" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:52:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>The History Center in Tompkins County</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15085coll6\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15085coll6</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>tomphist_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="tupper" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:54:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Tupper Lake Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\tupper\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>tupper</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>tupper_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll40" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:11:19" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Farmingdale Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll40/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll40</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="srr_sghs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:52:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Solvay-Geddes Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_sghs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_sghs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_sghs_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="fpfl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:41:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Fort Plain Free Library</description>  
+      <exportDirPath>/opt/repoxdata/fpfl/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>fpfl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>fpfl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll49" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:14:20" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Garden City Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll49/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll49</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="srr_ecm" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:48:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Erie Canal Museum</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_ecm\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_ecm</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_ecm_OAIDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="NYCSN" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:45:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Herschell Carrousel Factory Museum</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\NYCSN\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>NYCSN</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>herschel_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="wat" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:58:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Watertown Flower Memorial Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\wat\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>wat</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>flower_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="livpub01" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:43:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Liverpool Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\livpub01\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>livpub01</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>livpub1_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_utica" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:53:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Utica Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_utica\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_utica</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_utica_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll39" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-18 20:58:43" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Hempstead Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll39/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll39</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll38" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:24:50" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Locust Valley Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll38/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll38</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15109coll1" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:52:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Henrietta Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15109coll1\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15109coll1</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>henrietta_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="als" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:36:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Albany Law School</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\als\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>als</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>als_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll33" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:41:50" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Rockville Centre Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll33/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll33</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="srr_oneida" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:53:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Oneida Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_oneida\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_oneida</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_oneida_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll37" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-19 17:36:17" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Levittown Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll37/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll37</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll36" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:43:05" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Smithtown Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll36/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll36</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="srr_skanlib" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:52:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Skaneateles Library Association</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_skanlib\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_skanlib</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_skanlib_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="tobcl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:54:11" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Town of Ballston Community Library</description>  
+      <exportDirPath>/opt/repoxdata/tobcl/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>tobcl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>tobcl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll50" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:29:50" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Massapequa Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll50/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll50</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="alf" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:35:36" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Altamont Free Library</description>  
+      <exportDirPath>/opt/repoxdata/alf/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>afl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>afl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16373coll58" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 16:59:19" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bayport-Blue Point Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p16373coll58/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16373coll58</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15109coll4" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:53:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Newark Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15109coll4\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15109coll4</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>newarkpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll154" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:15:50" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Glen Cove Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll154/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll154</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p15109coll6" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:53:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Geneva Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15109coll6\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15109coll6</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>geneva_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="bpl" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:37:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Bethlehem Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\bpl\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>bpl</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>bpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15004coll9" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:46:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Nioga Library System</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p15004coll9\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15004coll9</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nioga_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll27" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-19 17:04:02" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>East Meadow Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll27/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll27</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll15" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:57:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Rochester Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll15\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll15</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>rochpl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll18" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:57:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Waterville Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll18\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll18</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>waterville_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="ZCQ001" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:59:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Center for Inquiry Libraries</description>  
+      <exportDirPath>/opt/repoxdata/ZCQ001/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>ZCQ001</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>inquiry_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="VHB011" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:56:41" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Buffalo and Erie County Public Library-Buffalo City Directories</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\VHB011\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>VHB011</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vhb011_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll14" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:56:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Central New York Library Resources Council</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll14\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll14</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>clrc_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p16694coll13" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:56:51" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Canastota Public Library</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\p16694coll13\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p16694coll13</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>canastota_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll20" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:01:49" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Brentwood Public Library</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll20/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll20</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source>  
+    <source id="nysmm" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-11 17:09:03" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Military Museum</description>  
+      <exportDirPath>/opt/repoxdata/nysmm/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>nysmm</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysmm_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="NYBFL" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 13:45:06" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Buffalo Olmsted Parks Conservancy</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\NYBFL\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>NYBFL</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nybfl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="srr_skanhis" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-09 16:52:26" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Skaneateles Historical Society</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\srr_skanhis\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>srr_skanhis</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>srr_skanhis_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="p15281coll25" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-03 17:09:04" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Dowling College</description>  
+      <exportDirPath>/opt/repoxdata/p15281coll25/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://cdm16694.contentdm.oclc.org/oai/oai.php</oai-source>  
+      <oai-set>p15281coll25</oai-set>  
+      <metadataTransformations/>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="NewYorkPhilharmonicr0"> 
+    <name>New York Philharmonic</name>  
+    <country>us</country>  
+    <source id="Programs" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:16:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York Philharmonic Program Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\Programs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://archives.nyphil.org/index.php/oai</oai-source>  
+      <oai-set>Programs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyphil_programs_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="MusicParts" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:11:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York Philharmonic Music Parts Collection</description>  
+      <exportDirPath>/opt/repoxdata/MusicParts/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://archives.nyphil.org/index.php/oai</oai-source>  
+      <oai-set>MusicParts</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyphil_parts_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="BusinessRecords" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:11:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York Philharmonic Business Records Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\BusinessRecords\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://archives.nyphil.org/index.php/oai</oai-source>  
+      <oai-set>BusinessRecords</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyphil_business_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="MusicScores" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:14:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York Philharmonic Music Scores Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\MusicScores\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://archives.nyphil.org/index.php/oai</oai-source>  
+      <oai-set>MusicScores</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nyphil_scores_oaiQDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="NewYorkStateArchivesr0"> 
+    <name>New York State Archives</name>  
+    <country>us</country>  
+    <source id="3186" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-17 13:47:46" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Archives-Photographic Prints and Negatives</description>  
+      <exportDirPath>/opt/repoxdata/3186/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.archives.nysed.gov/admin/service.php/OAI/dc</oai-source>  
+      <oai-set>3186</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysa_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="2965" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-17 13:47:46" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Archives-Public Information Photographs</description>  
+      <exportDirPath>/opt/repoxdata/2965/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.archives.nysed.gov/admin/service.php/OAI/dc</oai-source>  
+      <oai-set>2965</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysa_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="4243" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-17 14:12:49" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Archives-Instructional Lantern Slides</description>  
+      <exportDirPath>/opt/repoxdata/4243/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.archives.nysed.gov/admin/service.php/OAI/dc</oai-source>  
+      <oai-set>4243</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysa_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="4692" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-17 13:48:01" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Archives-Canal System Survey Maps</description>  
+      <exportDirPath>/opt/repoxdata/4692/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.archives.nysed.gov/admin/service.php/OAI/dc</oai-source>  
+      <oai-set>4692</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysa_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="1789" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-17 13:47:46" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Archives-Aerial Photographic Prints and Negatives of New York State Sites</description>  
+      <exportDirPath>/opt/repoxdata/1789/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.archives.nysed.gov/admin/service.php/OAI/dc</oai-source>  
+      <oai-set>1789</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysa_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="NewYorkStateLibraryr0"> 
+    <name>New York State Library</name>  
+    <country>us</country>  
+    <source id="library1_lib" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-11-02 16:45:21" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>New York State Library-Digital Collections</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\library1_lib\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://128.121.13.244/awweb/oai</oai-source>  
+      <oai-set>library1_lib</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>nysl_oaiDCtoMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="NewYorkUniversityr0"> 
+    <name>New York University</name>  
+    <country>us</country> 
+  </provider>  
+  <provider id="QueensLibraryr0"> 
+    <name>Queens Borough Public Library</name>  
+    <country>us</country>  
+    <source id="collection11733" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Soldiers Sailors Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11733/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11733</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection9412" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:36:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Erwin Ma Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection9412/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection9412</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5125" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:33:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-William Erwin Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection5125/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5125</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection4377" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:28:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Ralph Solecki Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection4377/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection4377</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3185" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:25:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Hal Fullerton Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3185/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3185</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection9386" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:36:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Joseph Burt Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection9386/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection9386</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5839" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:32:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Queens Museum Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection5839/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5839</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection10431" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:21:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-William Murray Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection10431/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection10431</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection7837" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:35:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Eugene Armbruster Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection7837/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection7837</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection475" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:28:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-New York Tax Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection475/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection475</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3743" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:29:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Josiah Case Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3743/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3743</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11115" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:22:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Arthur Murray Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11115/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11115</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection6412" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:35:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Irene Devan Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection6412/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection6412</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5603" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:32:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Rogers Waters Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection5603/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5603</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11775" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Jacob Wieners Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11775/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11775</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection10116" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:21:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Wiliam Cahill Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection10116/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection10116</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11322" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:22:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Arthur Greene Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11322/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11322</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3591" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:26:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-James Henry Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3591/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3591</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11707" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Good Citizenship Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11707/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11707</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5922" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:33:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Borough President Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection5922/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5922</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection4824" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:32:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Sister Sonia Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection4824/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection4824</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection2887" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:54" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Anders Goldfarb Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection2887/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection2887</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection2913" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:25:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Councilwoman Julia Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection2913/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection2913</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11743" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-South Reformed Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11743/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11743</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5539" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:32:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-J. William Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection5539/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5539</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3877" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:30:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Public Service Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3877/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3877</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection9443" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:38:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-William Rugen Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection9443/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection9443</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection5965" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:34:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Aurora Gareiss Papers</description>  
+      <exportDirPath>/opt/repoxdata/collection5965/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection5965</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3693" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:27:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-John Willis Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3693/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3693</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection11526" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:24:09" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Eugene Nichols Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection11526/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection11526</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection3840" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:28:24" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-Oratorio Society Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection3840/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection3840</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="collection10776" metadataFormat="oai_dc" schema="http://www.openarchives.org/OAI/2.0/oai_dc.xsd" namespace="http://www.openarchives.org/OAI/2.0/" lastIngest="2015-12-01 16:21:39" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Queens Borough Public Library-A. Noble Chapman Photographs</description>  
+      <exportDirPath>/opt/repoxdata/collection10776/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalarchives.queenslibrary.org/vital/oai/provider</oai-source>  
+      <oai-set>collection10776</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>queens_oaidctomods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="UniversityofRochesterr0"> 
+    <name>University of Rochester</name>  
+    <country>us</country>  
+    <source id="islandora_2377_1" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:24:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>University of Rochester-William Thomas Moncrieff Papers</description>  
+      <exportDirPath>/opt/repoxdata/islandora_2377_1/export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.lib.rochester.edu/oai2</oai-source>  
+      <oai-set>islandora_2377</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>uroch_moncrieff_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="islandora_2599" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:24:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>University of Rochester-Hayes-Coleman Family Papers</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\islandora_2599\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.lib.rochester.edu/oai2</oai-source>  
+      <oai-set>islandora_2599</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>uroch_coleman_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="islandora_416" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:24:42" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>University of Rochester-Kenneth B. Keating Collection</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\islandora_416\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitalcollections.lib.rochester.edu/oai2</oai-source>  
+      <oai-set>islandora_416</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>uroch_keating_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>  
+  <provider id="VassarColleger0"> 
+    <name>Vassar College</name>  
+    <country>us</country>  
+    <source id="vassar_anthony_susan_b" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:14:57" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-Susan B. Anthony Papers</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_anthony_susan_b\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_anthony-susan-b</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_anthony-susan-b_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vassar_earlyimages" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:18:12" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-Images of Early Vassar</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_earlyimages\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_earlyimages</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_earlyimages_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vassar_bidloo" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:15:57" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-Bidloo's Anatomia (Vassar's Millionth Volume)</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_bidloo\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_bidloo</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_bidloo_modsToMODS</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vassar_parrish" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:20:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-Jasper Parrish Papers</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_parrish\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_parrish</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_parrish_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vassar_diaries" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:17:57" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-Vassar College Student Diaries</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_diaries\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_diaries</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_diaries_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source>  
+    <source id="vassar_burroughs" metadataFormat="MODS" schema="http://www.loc.gov/standards/mods/mods.xsd" namespace="http://www.loc.gov/standards/mods/" lastIngest="2015-12-01 17:16:27" isSample="false" sample="-1" status="OK" type="DataSourceOai"> 
+      <description>Vassar College Libraries-John Burroughs Journals</description>  
+      <exportDirPath>/home/ec2-user/repoxunix/jetty/c:\Program Files\repox\repoxdata\repository\vassar_burroughs\export</exportDirPath>  
+      <recordIdPolicy type="IdProvided"/>  
+      <oai-source>http://digitallibrary.vassar.edu/oai2</oai-source>  
+      <oai-set>vassar_burroughs</oai-set>  
+      <metadataTransformations> 
+        <metadataTransformation>vassar_burroughs_modsToMods</metadataTransformation> 
+      </metadataTransformations>  
+      <restServices/> 
+    </source> 
+  </provider>
+</data-providers>
