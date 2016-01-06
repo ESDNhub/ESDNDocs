@@ -15,4 +15,4 @@ ESDN has adapted tools from North Carolina's DPLA Service Hub, the [North Caroli
 [DPLA Submission Pre-Check] (http://repox.metro.org/dpla-submission-precheck/)
 
 ### Sets for DPLA Harvesting
-ESDN provides DPLA with a list of sets, organized by OAI setSpec, to harvest from our REPOX instance on a bimonthly basis. The current list of sets ready for harvesting is available in the *sets-for-DPLA-harvesting* folder.
+ESDN provides DPLA with a list of sets, organized by OAI setSpec from our REPOX instance, for harvesting on a bimonthly basis. The current list of sets ready for harvesting is available in the *sets-for-DPLA-harvesting* folder.
