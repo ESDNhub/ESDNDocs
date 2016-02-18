@@ -2,7 +2,9 @@
 Workflow and technical documentation for the Empire State Digital Network. General project documentation is available on our [website] (http://empirestate.digital/about/documentation/).
 
 ### ESDN Metadata Profile
-ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Metadata Application Profile] (http://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf). The profile is available [here] (https://github.com/ESDNhub/ESDNDocs/blob/master/ESDN_MODS_MAP.csv) and also in [Google Sheets] (https://docs.google.com/spreadsheets/d/10IKKP7vnQMQKBOXpVefZ1EfGTm92uwUOnwlITAw6IFQ/edit?usp=sharing). 
+ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Metadata Application Profile] (http://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf). 
+
+The full ESDN Metadata Profile is available [here] (https://docs.google.com/spreadsheets/d/10IKKP7vnQMQKBOXpVefZ1EfGTm92uwUOnwlITAw6IFQ/edit?usp=sharing) in Google Sheets. 
 
 An ESDN [mapping worksheet] (https://docs.google.com/spreadsheets/d/1sPf9DNl4_ySbJvLyYbjy-2CuwR7729NIytShWb57qgc/edit?usp=sharing) is also available to assist in aligning partner metadata with ESDN and DPLA requirements.
 
