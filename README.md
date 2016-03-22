@@ -9,7 +9,7 @@ The full ESDN Metadata Profile is available [here] (https://docs.google.com/spre
 An ESDN [mapping worksheet] (https://docs.google.com/spreadsheets/d/1sPf9DNl4_ySbJvLyYbjy-2CuwR7729NIytShWb57qgc/edit?usp=sharing) is also available to assist in aligning partner metadata with ESDN and DPLA requirements.
 
 ### Heidrun Mappings
-Mappings for ESDN from Heidrun, DPLA's metadata ingestion and QA system, are available [here] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb).
+Mappings for ESDN from Heidrun, DPLA's metadata ingestion and QA system, are available [here] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb). [DPLA MAP V. 4 Crosswalks] (https://docs.google.com/spreadsheets/d/1BzZvDOf4fgas3TD21xF40lu2pk2XW0k2pTGJKIt6438/edit#gid=1453046017) for all hubs including ESDN are also available. 
 
 ### QA Tools
 ESDN has adapted tools from North Carolina's DPLA Service Hub, the [North Carolina Digital Heritage Center] (https://www.digitalnc.org/), for our partner's use.
