@@ -11,7 +11,7 @@ An ESDN [mapping worksheet] (https://docs.google.com/spreadsheets/d/1sPf9DNl4_yS
 ### Heidrun Mappings
 Mappings for ESDN from Heidrun, DPLA's metadata ingestion and QA system, are available [here] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb). 
 
-## DPLA MAP Crosswalks
+### DPLA MAP Crosswalks
 Crosswalks for [DPLA MAP V. 4] (https://docs.google.com/spreadsheets/d/1BzZvDOf4fgas3TD21xF40lu2pk2XW0k2pTGJKIt6438/edit#gid=1453046017) for each hub, including ESDN, are also available.
 
 ### QA Tools
