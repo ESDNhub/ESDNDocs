@@ -4,8 +4,8 @@ Workflow and technical documentation for the Empire State Digital Network. Gener
 ### Sets for DPLA Harvesting
 ESDN provides DPLA with a list of sets, organized by OAI setSpec from our REPOX instance, for harvesting on a bimonthly schedule. The current list of sets ready for harvesting is available in the *sets-for-DPLA-harvesting* folder.
 
-### Bulk Data Downloads 
-Coming soon!
+### Datasets
+Full ESDN MODS dataset from our REPOX instance available here. Updated monthly.
 
 ### ESDN Metadata Profile
 ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Metadata Application Profile] (http://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf). 
