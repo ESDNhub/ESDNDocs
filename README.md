@@ -20,7 +20,7 @@ ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Me
 [Mapping for ESDN] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb) from Heidrun, DPLA's metadata ingestion and QA system
 
 ### DPLA MAP Crosswalks
-Crosswalks for [DPLA MAP V. 4] (https://docs.google.com/spreadsheets/d/1BzZvDOf4fgas3TD21xF40lu2pk2XW0k2pTGJKIt6438/edit#gid=1453046017) for each hub, including ESDN, are also available.
+Hub Crosswalks for [DPLA MAP V. 4] (https://docs.google.com/spreadsheets/d/1BzZvDOf4fgas3TD21xF40lu2pk2XW0k2pTGJKIt6438/edit#gid=1453046017) are also available.
 
 ### QA Tools
 ESDN has adapted tools from North Carolina's DPLA Service Hub, the [North Carolina Digital Heritage Center] (https://www.digitalnc.org/), for our partner's use.
