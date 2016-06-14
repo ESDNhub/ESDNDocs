@@ -5,17 +5,19 @@ Workflow and technical documentation for the Empire State Digital Network. Gener
 ESDN provides DPLA with a list of sets, organized by OAI setSpec from our REPOX instance, for harvesting on a bimonthly schedule. The current list of sets ready for harvesting is available in the *sets-for-DPLA-harvesting* folder.
 
 ### Datasets
-Full ESDN MODS dataset from REPOX available here. Updated monthly.
+Full ESDN MODS dataset from REPOX. Updated monthly.
 
-### ESDN Metadata Profile
+### ESDN Metadata Documents
 ESDN maps all partner metadata to a set of MODS elements aligned with DPLA's [Metadata Application Profile] (http://dp.la/info/wp-content/uploads/2015/03/MAPv4.pdf). 
 
-The full ESDN Metadata Profile is available [here] (https://docs.google.com/spreadsheets/d/10IKKP7vnQMQKBOXpVefZ1EfGTm92uwUOnwlITAw6IFQ/edit?usp=sharing) in Google Sheets. 
+[ESDN Metadata Profile] (https://docs.google.com/spreadsheets/d/10IKKP7vnQMQKBOXpVefZ1EfGTm92uwUOnwlITAw6IFQ/edit?usp=sharing)
 
-An ESDN [mapping worksheet] (https://docs.google.com/spreadsheets/d/1sPf9DNl4_ySbJvLyYbjy-2CuwR7729NIytShWb57qgc/edit?usp=sharing) is also available to assist in aligning partner metadata with ESDN and DPLA requirements.
+[ESDN Field Requirements] (https://docs.google.com/document/d/1wOqzCuicjk54fWv1TyxZbNaVLn3AVFeWIJ9bFO1Aqck/edit?usp=sharing)
+
+[ESDN Mapping Worksheet] (https://docs.google.com/spreadsheets/d/1sPf9DNl4_ySbJvLyYbjy-2CuwR7729NIytShWb57qgc/edit?usp=sharing) 
 
 ### Heidrun Mappings
-Mappings for ESDN from Heidrun, DPLA's metadata ingestion and QA system, are available [here] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb). 
+[Mapping for ESDN] (https://github.com/dpla/heidrun-mappings/blob/master/heidrun/esdn_mods.rb) from Heidrun, DPLA's metadata ingestion and QA system
 
 ### DPLA MAP Crosswalks
 Crosswalks for [DPLA MAP V. 4] (https://docs.google.com/spreadsheets/d/1BzZvDOf4fgas3TD21xF40lu2pk2XW0k2pTGJKIt6438/edit#gid=1453046017) for each hub, including ESDN, are also available.
